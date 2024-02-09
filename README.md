@@ -18,6 +18,7 @@ It works well enough, but since I am new to OOP, once concern I have is that the
 Additionally, I have been playing around in parralel with code that is repsonsible for moving a PNG in pygame on a screen. I have got it to move the PNG by essentially attatching it to a rectangle and moving the rectangle, then drawing it on the rectangle every frame. But it currently does not snap to a grid like I would want.
 
 My thoughts on how to do this are:
+
 1: a function that takes in the piece I am holding, and is triggered on the event of the mouseUP, that iterates though the squares and returns the closest square, then takes the piece and teh squares X Y position, and sets the pieces XY to be the squares.
   - requires that the Square and Piece have X Y attributes.
   - requires a way for me to loop through the squares (currently kind of hard because the sqaures are drawn but i dont think that they are stored in like an array or anything, and I am not really sure how to access a specific square or something in the array if I appended them anyway, but I do think regardless of the solution creating the array will at somepoint be required)
