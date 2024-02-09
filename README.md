@@ -25,6 +25,7 @@ My thoughts on how to do this are:
   - requires some sort of code to tell which piece needs to animate the moving
   - could be slow
   - could be harder
+
 2: make the squares "clickable" and then write a function that takes a piece and a square and gets that info from the last piece and square I have clicked on, and is triggered when a square is clicked.
   - requires squares be clickable
   - requires that the Square and Piece have X Y attributes.
